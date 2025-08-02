@@ -5,133 +5,95 @@
 
 const quizData = [
   { question: "What is the capital of Andhra Pradesh?", options: ["Amaravati", "Vijayawada", "Visakhapatnam", "Guntur"], correct: 0 },
-  { question: "What is the capital of Arunachal Pradesh?", options: ["Ziro", "Itanagar", "Pasighat", "Naharlagun"], correct: 1 },
-  { question: "What is the capital of Assam?", options: ["Tezpur", "Silchar", "Guwahati", "Dispur"], correct: 3 },
-  { question: "What is the capital of Bihar?", options: ["Gaya", "Patna", "Bhagalpur", "Muzaffarpur"], correct: 1 },
-  { question: "What is the capital of Chhattisgarh?", options: ["Raipur", "Bilaspur", "Korba", "Durg"], correct: 0 },
-  { question: "What is the capital of Goa?", options: ["Vasco da Gama", "Panaji", "Margao", "Mapusa"], correct: 1 },
-  { question: "What is the capital of Gujarat?", options: ["Ahmedabad", "Gandhinagar", "Surat", "Rajkot"], correct: 1 },
-  { question: "What is the capital of Haryana?", options: ["Chandigarh", "Gurugram", "Faridabad", "Panipat"], correct: 0 },
-  { question: "What is the capital of Himachal Pradesh?", options: ["Dharamshala", "Solan", "Shimla", "Mandi"], correct: 2 },
-  { question: "What is the capital of Jharkhand?", options: ["Ranchi", "Dhanbad", "Bokaro", "Jamshedpur"], correct: 0 },
-  { question: "What is the capital of Karnataka?", options: ["Mysuru", "Hubli", "Bengaluru", "Mangalore"], correct: 2 },
-  { question: "What is the capital of Kerala?", options: ["Thiruvananthapuram", "Kozhikode", "Kochi", "Alappuzha"], correct: 0 },
-  { question: "What is the capital of Madhya Pradesh?", options: ["Bhopal", "Jabalpur", "Indore", "Gwalior"], correct: 0 },
-  { question: "What is the capital of Maharashtra?", options: ["Pune", "Mumbai", "Nagpur", "Nashik"], correct: 1 },
-  { question: "What is the capital of Manipur?", options: ["Imphal", "Ukhrul", "Thoubal", "Churachandpur"], correct: 0 },
-  { question: "What is the capital of Meghalaya?", options: ["Jowai", "Tura", "Nongpoh", "Shillong"], correct: 3 },
-  { question: "What is the capital of Mizoram?", options: ["Aizawl", "Serchhip", "Champhai", "Lunglei"], correct: 0 },
-  { question: "What is the capital of Nagaland?", options: ["Dimapur", "Kohima", "Tuensang", "Mokokchung"], correct: 1 },
-  { question: "What is the capital of Odisha?", options: ["Cuttack", "Bhubaneswar", "Puri", "Rourkela"], correct: 1 },
-  { question: "What is the capital of Punjab?", options: ["Jalandhar", "Ludhiana", "Chandigarh", "Amritsar"], correct: 2 },
-  { question: "What is the capital of Rajasthan?", options: ["Jaipur", "Kota", "Udaipur", "Jodhpur"], correct: 0 },
-  { question: "What is the capital of Sikkim?", options: ["Mangan", "Namchi", "Gangtok", "Geyzing"], correct: 2 },
-  { question: "What is the capital of Tamil Nadu?", options: ["Chennai", "Madurai", "Tiruchirappalli", "Coimbatore"], correct: 0 },
-  { question: "What is the capital of Telangana?", options: ["Warangal", "Hyderabad", "Nizamabad", "Karimnagar"], correct: 1 },
-  { question: "What is the capital of Tripura?", options: ["Agartala", "Dharmanagar", "Kailashahar", "Udaipur"], correct: 0 },
-  { question: "What is the capital of Uttar Pradesh?", options: ["Lucknow", "Varanasi", "Kanpur", "Agra"], correct: 0 },
-  { question: "What is the capital of Uttarakhand?", options: ["Nainital", "Dehradun", "Haldwani", "Haridwar"], correct: 1 },
-  { question: "What is the capital of West Bengal?", options: ["Kolkata", "Darjeeling", "Howrah", "Siliguri"], correct: 0 },
   {
-    question: "What is the capital of Andaman and Nicobar Islands?",
-    options: ["Port Blair", "Havelock", "Diglipur", "Car Nicobar"],
-    correct: 0
-  },
-  {
-    question: "What is the capital of Chandigarh?",
-    options: ["Chandigarh", "Mohali", "Panchkula", "Zirakpur"],
-    correct: 0
-  },
-  {
-    question: "What is the capital of Dadra and Nagar Haveli and Daman and Diu?",
-    options: ["Silvassa", "Daman", "Diu", "Vapi"],
-    correct: 0
-  },
-  {
-    question: "What is the capital of Delhi?",
-    options: ["New Delhi", "Delhi Cantt", "Noida", "Faridabad"],
-    correct: 0
-  },
-  {
-    question: "What is the capital of Jammu and Kashmir?",
-    options: ["Srinagar", "Jammu", "Pahalgam", "Anantnag"],
-    correct: 0
-  },
-  {
-    question: "What is the capital of Ladakh?",
-    options: ["Leh", "Kargil", "Padum", "Nubra"],
-    correct: 0
-  },
-  {
-    question: "What is the capital of Lakshadweep?",
-    options: ["Kavaratti", "Agatti", "Minicoy", "Amini"],
-    correct: 0
-  },
-  {
-    question: "What is the capital of Puducherry?",
-    options: ["Puducherry", "Karaikal", "Mahe", "Yanam"],
-    correct: 0
-  },
-  {
-    question: "Which state is led by Chief Minister Arvind Kejriwal?",
+    question: "Which state is led by Chief Minister Rekha Gupta?",
     options: ["Haryana", "Delhi", "Uttar Pradesh", "Punjab"],
     correct: 1
   },
+  { question: "What is the capital of Arunachal Pradesh?", options: ["Ziro", "Itanagar", "Pasighat", "Naharlagun"], correct: 1 },
+  { question: "What is the capital of Assam?", options: ["Tezpur", "Silchar", "Guwahati", "Dispur"], correct: 3 },
   {
     question: "Which state is led by Chief Minister M. K. Stalin?",
     options: ["Kerala", "Karnataka", "Tamil Nadu", "Andhra Pradesh"],
     correct: 2
   },
-  {
+  { question: "What is the capital of Bihar?", options: ["Gaya", "Patna", "Bhagalpur", "Muzaffarpur"], correct: 1 },
+  { question: "What is the capital of Chhattisgarh?", options: ["Raipur", "Bilaspur", "Korba", "Durg"], correct: 0 },
+   {
     question: "Which state is led by Chief Minister Yogi Adityanath?",
     options: ["Uttar Pradesh", "Rajasthan", "Bihar", "Madhya Pradesh"],
     correct: 0
   },
-  {
+  { question: "What is the capital of Goa?", options: ["Vasco da Gama", "Panaji", "Margao", "Mapusa"], correct: 1 },
+  { question: "What is the capital of Gujarat?", options: ["Ahmedabad", "Gandhinagar", "Surat", "Rajkot"], correct: 1 },
+   
+   {
     question: "Which state is led by Chief Minister Mamata Banerjee?",
     options: ["Jharkhand", "West Bengal", "Assam", "Odisha"],
     correct: 1
   },
+  { question: "What is the capital of Haryana?", options: ["Chandigarh", "Gurugram", "Faridabad", "Panipat"], correct: 0 },
+  { question: "What is the capital of Himachal Pradesh?", options: ["Dharamshala", "Solan", "Shimla", "Mandi"], correct: 2 },
   {
     question: "Which state is led by Chief Minister Nitish Kumar?",
     options: ["Chhattisgarh", "Bihar", "Jharkhand", "Uttar Pradesh"],
     correct: 1
   },
+  { question: "What is the capital of Jharkhand?", options: ["Ranchi", "Dhanbad", "Bokaro", "Jamshedpur"], correct: 0 },
+  { question: "What is the capital of Karnataka?", options: ["Mysuru", "Hubli", "Bengaluru", "Mangalore"], correct: 2 },
   {
     question: "Which state is led by Chief Minister Revanth Reddy?",
     options: ["Tamil Nadu", "Andhra Pradesh", "Telangana", "Karnataka"],
     correct: 2
   },
+  { question: "What is the capital of Kerala?", options: ["Thiruvananthapuram", "Kozhikode", "Kochi", "Alappuzha"], correct: 0 },
   {
     question: "Which state is led by Chief Minister Pushkar Singh Dhami?",
     options: ["Haryana", "Punjab", "Uttarakhand", "Himachal Pradesh"],
     correct: 2
   },
+  { question: "What is the capital of Madhya Pradesh?", options: ["Bhopal", "Jabalpur", "Indore", "Gwalior"], correct: 0 },
+  { question: "What is the capital of Maharashtra?", options: ["Pune", "Mumbai", "Nagpur", "Nashik"], correct: 1 },
+  { question: "What is the capital of Manipur?", options: ["Imphal", "Ukhrul", "Thoubal", "Churachandpur"], correct: 0 },
+   
   {
     question: "Which state is led by Chief Minister Bhupendra Patel?",
     options: ["Rajasthan", "Madhya Pradesh", "Gujarat", "Maharashtra"],
     correct: 2
   },
+  { question: "What is the capital of Meghalaya?", options: ["Jowai", "Tura", "Nongpoh", "Shillong"], correct: 3 },
+  { question: "What is the capital of Mizoram?", options: ["Aizawl", "Serchhip", "Champhai", "Lunglei"], correct: 0 },
+  
   {
     question: "Which state is led by Chief Minister Siddaramaiah?",
     options: ["Kerala", "Karnataka", "Tamil Nadu", "Andhra Pradesh"],
     correct: 1
   },
+  { question: "What is the capital of Nagaland?", options: ["Dimapur", "Kohima", "Tuensang", "Mokokchung"], correct: 1 },
   {
     question: "Which state is led by Chief Minister Pinarayi Vijayan?",
     options: ["Tamil Nadu", "Kerala", "Goa", "Karnataka"],
     correct: 1
   },
+  { question: "What is the capital of Odisha?", options: ["Cuttack", "Bhubaneswar", "Puri", "Rourkela"], correct: 1 },
+  { question: "What is the capital of Punjab?", options: ["Jalandhar", "Ludhiana", "Chandigarh", "Amritsar"], correct: 2 },
+   
   {
     question: "Which state is led by Chief Minister Vishnu Deo Sai?",
     options: ["Chhattisgarh", "Jharkhand", "Odisha", "Bihar"],
     correct: 0
   },
+  { question: "What is the capital of Rajasthan?", options: ["Jaipur", "Kota", "Udaipur", "Jodhpur"], correct: 0 },
+  { question: "What is the capital of Sikkim?", options: ["Mangan", "Namchi", "Gangtok", "Geyzing"], correct: 2 },
+  
   {
     question: "Which state is led by Chief Minister Mohan Yadav?",
     options: ["Madhya Pradesh", "Rajasthan", "Gujarat", "Uttar Pradesh"],
     correct: 0
   },
+  { question: "What is the capital of Tamil Nadu?", options: ["Chennai", "Madurai", "Tiruchirappalli", "Coimbatore"], correct: 0 },
+  
+ 
   {
     question: "Which state is led by Chief Minister Bhajan Lal Sharma?",
     options: ["Punjab", "Haryana", "Rajasthan", "Madhya Pradesh"],
@@ -142,30 +104,62 @@ const quizData = [
     options: ["Punjab", "Uttar Pradesh", "Delhi", "Haryana"],
     correct: 3
   },
-  {
+  { question: "What is the capital of Telangana?", options: ["Warangal", "Hyderabad", "Nizamabad", "Karimnagar"], correct: 1 },
+  { question: "What is the capital of Tripura?", options: ["Agartala", "Dharmanagar", "Kailashahar", "Udaipur"], correct: 0 },
+   {
     question: "Which state is led by Chief Minister Sukhvinder Singh Sukhu?",
     options: ["Uttarakhand", "Punjab", "Himachal Pradesh", "Jammu & Kashmir"],
     correct: 2
   },
+  { question: "What is the capital of Uttar Pradesh?", options: ["Lucknow", "Varanasi", "Kanpur", "Agra"], correct: 0 },
+  { question: "What is the capital of Uttarakhand?", options: ["Nainital", "Dehradun", "Haldwani", "Haridwar"], correct: 1 },
+  { question: "What is the capital of West Bengal?", options: ["Kolkata", "Darjeeling", "Howrah", "Siliguri"], correct: 0 },
   {
     question: "Which state is led by Chief Minister Hemant Soren?",
     options: ["Bihar", "Chhattisgarh", "Jharkhand", "Odisha"],
     correct: 2
   },
   {
-    question: "Which state is led by Chief Minister Manik Saha?",
-    options: ["Meghalaya", "Tripura", "Mizoram", "Assam"],
-    correct: 1
+    question: "What is the capital of Andaman and Nicobar Islands?",
+    options: ["Port Blair", "Havelock", "Diglipur", "Car Nicobar"],
+    correct: 0
   },
+  
   {
     question: "Which state is led by Chief Minister Conrad Sangma?",
     options: ["Nagaland", "Meghalaya", "Manipur", "Arunachal Pradesh"],
     correct: 1
   },
+   
   {
+    question: "Which state is led by Chief Minister Manik Saha?",
+    options: ["Meghalaya", "Tripura", "Mizoram", "Assam"],
+    correct: 1
+  },
+  {
+    question: "What is the capital of Chandigarh?",
+    options: ["Chandigarh", "Mohali", "Panchkula", "Zirakpur"],
+    correct: 0
+  },
+   {
     question: "Which state is led by Chief Minister Lalduhoma?",
     options: ["Mizoram", "Manipur", "Nagaland", "Tripura"],
     correct: 0
+  },
+  {
+    question: "What is the capital of Dadra and Nagar Haveli and Daman and Diu?",
+    options: ["Silvassa", "Daman", "Diu", "Vapi"],
+    correct: 0
+  },
+   {
+    question: "Which state is led by Chief Minister Prem Singh Tamang?",
+    options: ["Meghalaya", "Arunachal Pradesh", "Sikkim", "Mizoram"],
+    correct: 2
+  },
+  {
+    question: "What is the capital of Delhi?",
+    options: ["New Delhi", "Delhi Cantt", "Noida", "Faridabad"],
+   correct: 0
   },
   {
     question: "Which state is led by Chief Minister Neiphiu Rio?",
@@ -178,26 +172,43 @@ const quizData = [
     correct: 2
   },
   {
-    question: "Which state is led by Chief Minister Prem Singh Tamang?",
-    options: ["Meghalaya", "Arunachal Pradesh", "Sikkim", "Mizoram"],
-    correct: 2
+    question: "What is the capital of Jammu and Kashmir?",
+    options: ["Srinagar", "Jammu", "Pahalgam", "Anantnag"],
+    correct: 0
   },
+  
   {
     question: "Which state is led by Chief Minister Mohan Charan Majhi?",
     options: ["West Bengal", "Odisha", "Chhattisgarh", "Jharkhand"],
     correct: 1
   },
   {
+    question: "What is the capital of Ladakh?",
+    options: ["Leh", "Kargil", "Padum", "Nubra"],
+    correct: 0
+  },
+   {
     question: "Which state is led by Chief Minister Bhagwant Mann?",
     options: ["Delhi", "Punjab", "Uttar Pradesh", "Haryana"],
     correct: 1
+  },
+  {
+    question: "What is the capital of Lakshadweep?",
+    options: ["Kavaratti", "Agatti", "Minicoy", "Amini"],
+    correct: 0
+  },
+  {
+    question: "What is the capital of Puducherry?",
+    options: ["Puducherry", "Karaikal", "Mahe", "Yanam"],
+    correct: 0
   },
   {
     question: "Which UT is led by Chief Minister N. Rangasamy?",
     options: ["Goa", "Puducherry", "Kerala", "Tamil Nadu"],
     correct: 1
   },
-   ];
+  
+];
 
 
 const quiz = document.querySelector("#quiz")
