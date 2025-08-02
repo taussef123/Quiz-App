@@ -1,0 +1,127 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(221, 194, 248);
+    /* background-color:#000000; */
+}
+.quiz-section{
+     background-color: rgb(188, 135, 238);
+     width: 70%;
+    display:flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 4rem 8rem;
+     border-radius: 5%;
+     border-left: 10px solid blue;
+    border-right: 10px solid blue;
+    border-top: 5px solid blue;
+    border-bottom: 5px solid blue;
+    
+}
+#quiz{
+    width: 100%;
+    max-width: 500px;
+}
+
+ul{
+    margin-top: 2rem;
+
+     
+}
+li{
+    list-style-type: none;
+    padding: 1rem 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   border: 1px solid blue;
+   border-radius:30px;
+    margin: 10px;
+
+}
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+input[type="radio"]:hover{
+    background-color: blue;
+}
+
+label{
+    display: inline-block;
+    width: 100%;
+    margin-right: 20px;
+    font-size: 18px;
+    flex: 1;
+}
+h2,h1{
+    color: blue;
+    padding: 1rem;
+   
+
+}
+p{
+color: blue;
+    padding: 2rem;
+    font-weight: 700;
+}
+hr{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.btn{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+#submit,.reload-button{
+    background-color: rgb(58, 58, 173);
+    padding: 0.7rem ;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    border:none;
+}
+
+#submit,.reload-button:hover{
+    background-color:blue;
+    color:aliceblue;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:721px) {
+ 
+   .quiz-section{
+    width: 300px;
+    padding: 2rem;
+   }
+         li {
+             height: 40px;
+             /* Slimmer for mobile view */
+             padding: 0 0.5rem;
+         }
+    
+         label {
+             font-size: 16px;
+         }
+    
+         input[type="radio"] {
+             width: 18px;
+             height: 18px;
+         }
+}
