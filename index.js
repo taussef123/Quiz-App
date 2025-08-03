@@ -210,486 +210,462 @@
   
 // ];
 
-
 const quizData = [
   {
-    question: "Which country has the highest population in the world?",
-    options: ["China", "India", "USA", "Indonesia"],
+    question: "What is the scientific study of living organisms called?",
+    options: ["Zoology", "Biology", "Ecology", "Botany"],
     correct: 1
   },
   {
-    question: "Urbanization refers to the growth of what?",
-    options: ["Forests", "Villages", "Cities", "Industries"],
-    correct: 2
-  },
-  {
-    question: "Which continent has the highest urbanization rate?",
-    options: ["Asia", "Europe", "North America", "Africa"],
-    correct: 2
-  },
-  {
-    question: "What does population density measure?",
-    options: ["People per household", "Children per family", "People per square kilometer", "Income per capita"],
-    correct: 2
-  },
-  {
-    question: "Which type of farming is common in deserts?",
-    options: ["Aquaculture", "Commercial farming", "Nomadic herding", "Subsistence farming"],
-    correct: 2
-  },
-  {
-    question: "Which factor influences the location of human settlements?",
-    options: ["Water availability", "Fashion trends", "Political leaders", "Cultural beliefs"],
+    question: "Which term refers to the classification of organisms?",
+    options: ["Taxonomy", "Anatomy", "Physiology", "Morphology"],
     correct: 0
   },
   {
-    question: "What is a megacity?",
-    options: ["City near the coast", "City with advanced infrastructure", "City with a million people", "City with more than 10 million people"],
+    question: "Who is regarded as the father of taxonomy?",
+    options: ["Darwin", "Aristotle", "Linnaeus", "Mendel"],
+    correct: 2
+  },
+  {
+    question: "Binomial nomenclature was proposed by?",
+    options: ["Robert Hooke", "Carl Linnaeus", "Haeckel", "Lamarck"],
+    correct: 1
+  },
+  {
+    question: "Which is the correct format for scientific names?",
+    options: ["Genus species", "GENUS species", "genus SPECIES", "Species genus"],
+    correct: 0
+  },
+  {
+    question: "What does ICZN stand for?",
+    options: ["International Code of Zoological Nomenclature", "Indian Council for Zoological Naming", "Institute for Classification of Zoos and Nature", "International Convention of Zoology and Nature"],
+    correct: 0
+  },
+  {
+    question: "Which domain contains prokaryotic organisms?",
+    options: ["Eukarya", "Protista", "Archaea", "Plantae"],
+    correct: 2
+  },
+  {
+    question: "Which of the following is not a characteristic of living organisms?",
+    options: ["Metabolism", "Growth", "Reproduction", "Inertia"],
     correct: 3
   },
   {
-    question: "Which sector includes transportation services?",
-    options: ["Primary", "Tertiary", "Quaternary", "Secondary"],
+    question: "Which process involves all biochemical reactions in an organism?",
+    options: ["Digestion", "Metabolism", "Circulation", "Excretion"],
     correct: 1
   },
   {
-    question: "What does demography study?",
-    options: ["Climate", "Culture", "Population", "Geology"],
+    question: "What is the sum total of all chemical reactions in the body called?",
+    options: ["Anabolism", "Catabolism", "Metabolism", "Respiration"],
     correct: 2
   },
   {
-    question: "Which country is known for floating settlements?",
-    options: ["Norway", "Thailand", "Egypt", "USA"],
-    correct: 1
-  },
-  {
-    question: "Which region has a declining population due to aging?",
-    options: ["Europe", "Africa", "Asia", "Australia"],
-    correct: 0
-  },
-  {
-    question: "What is the main cause of rural to urban migration?",
-    options: ["Family disputes", "Cultural exchanges", "Climate change", "Job opportunities"],
+    question: "Which statement is true about growth in living organisms?",
+    options: ["Only plants grow", "Growth stops after maturity", "Growth is reversible", "Growth involves increase in mass and number"],
     correct: 3
   },
   {
-    question: "What kind of settlement is designed for temporary living?",
-    options: ["Village", "Camp", "City", "Hamlet"],
-    correct: 1
-  },
-  {
-    question: "Which type of settlement has closely packed houses?",
-    options: ["Linear", "Isolated", "Compact", "Dispersed"],
-    correct: 2
-  },
-  {
-    question: "Which country has the highest population density?",
-    options: ["Bangladesh", "Canada", "Russia", "Brazil"],
-    correct: 0
-  },
-  {
-    question: "Which term describes population movement into cities?",
-    options: ["Migration", "Emigration", "Commutation", "Urbanization"],
+    question: "What distinguishes living from non-living?",
+    options: ["Movement", "Respiration", "Growth", "Consciousness"],
     correct: 3
   },
   {
-    question: "Which activity falls under primary economic activities?",
-    options: ["Teaching", "Banking", "Mining", "Software development"],
-    correct: 2
-  },
-  {
-    question: "Which economic activity is classified as secondary?",
-    options: ["Fishing", "Manufacturing", "Retail", "Research"],
-    correct: 1
-  },
-  {
-    question: "Which group is most impacted by housing shortages?",
-    options: ["Migrants", "Middle class", "Politicians", "Tourists"],
+    question: "Which kingdom includes unicellular prokaryotes?",
+    options: ["Monera", "Protista", "Plantae", "Fungi"],
     correct: 0
   },
   {
-    question: "Which element is part of the human development index?",
-    options: ["Ethnicity", "Age", "Income", "Height"],
-    correct: 2
-  },
-  {
-    question: "Why are settlements near rivers common?",
-    options: ["Scenic views", "Water supply", "Cold weather", "Wildlife"],
+    question: "Which is NOT part of binomial nomenclature?",
+    options: ["Genus", "Family", "Species", "Italicization"],
     correct: 1
   },
   {
-    question: "What defines compact settlements?",
-    options: ["Scattered houses", "Circular layout", "Close buildings", "Isolated homes"],
-    correct: 2
-  },
-  {
-    question: "Which is a push factor for migration?",
-    options: ["Political instability", "Education", "Cultural diversity", "Job offers"],
+    question: "Which taxon has the highest number of organisms?",
+    options: ["Species", "Order", "Phylum", "Kingdom"],
     correct: 0
   },
   {
-    question: "Which housing is common in urban slums?",
-    options: ["Luxury apartments", "Farmhouses", "Suburban homes", "Informal shelters"],
+    question: "What is the basic unit of classification?",
+    options: ["Order", "Family", "Genus", "Species"],
     correct: 3
   },
   {
-    question: "What sector includes software research?",
-    options: ["Quaternary", "Primary", "Tertiary", "Secondary"],
-    correct: 0
-  },
-  {
-    question: "What term describes expansion of cities outward?",
-    options: ["Urban bloom", "Urban shift", "Urban sprawl", "Urban jump"],
-    correct: 2
-  },
-  {
-    question: "Where do linear settlements typically occur?",
-    options: ["Mountain peaks", "City centers", "Near rivers/roads", "Dense forests"],
-    correct: 2
-  },
-  {
-    question: "Which factor does NOT affect population distribution?",
-    options: ["Soil fertility", "Hair color", "Climate", "Topography"],
+    question: "Systematics is the study of:",
+    options: ["Evolution", "Classification", "Structure", "Reproduction"],
     correct: 1
   },
   {
-    question: "Which settlement pattern is energy-efficient?",
-    options: ["Compact", "Isolated", "Linear", "Dispersed"],
-    correct: 0
+    question: "Which taxonomic category comes after genus?",
+    options: ["Family", "Species", "Order", "Class"],
+    correct: 1
   },
   {
-    question: "What’s a reason people settle near coasts?",
-    options: ["Cold temperature", "Dense vegetation", "Fishing and trade", "TV networks"],
-    correct: 2
-  },
-  {
-    question: "Why do squatter settlements develop?",
-    options: ["Illegal migration", "Floods", "Tourism boom", "Lack of affordable housing"],
+    question: "Which is NOT a domain of life?",
+    options: ["Archaea", "Eukarya", "Bacteria", "Fungi"],
     correct: 3
   },
   {
-    question: "What determines urban land use planning?",
-    options: ["Moon phases", "Rainfall", "Ethnicity", "Topography"],
-    correct: 3
-  },
-  {
-    question: "What causes traffic congestion in cities?",
-    options: ["Roadside trees", "High vehicle volume", "Wildlife", "Weather"],
+    question: "Which taxonomic category is broader than order?",
+    options: ["Family", "Class", "Genus", "Species"],
     correct: 1
   },
   {
-    question: "Which factor discourages settlement in tundra?",
-    options: ["Open land", "Rainfall", "Sunlight", "Permafrost"],
+    question: "What is a herbarium used for?",
+    options: ["Growing plants", "Storing seeds", "Preserving plant specimens", "Animal taxonomy"],
+    correct: 2
+  },
+  {
+    question: "A biological museum primarily preserves:",
+    options: ["Live animals", "Fossils", "Human tissues", "Specimens"],
     correct: 3
   },
   {
-    question: "Why is infrastructure important for cities?",
-    options: ["Replaces culture", "Supports economy", "Preserves nature", "Entertains citizens"],
+    question: "Which book lists all known species?",
+    options: ["Botanical Survey of India", "Flora of India", "Manual of Species", "Catalogue of Life"],
+    correct: 3
+  },
+  {
+    question: "Which is not a plant kingdom feature?",
+    options: ["Autotrophic nutrition", "Cell wall", "Multicellularity", "Nervous system"],
+    correct: 3
+  },
+  {
+    question: "Which characteristic is shared by all living organisms?",
+    options: ["Growth", "Consciousness", "Metabolism", "Locomotion"],
+    correct: 2
+  },
+  {
+    question: "An example of a taxonomic aid is:",
+    options: ["Chromosome", "Herbarium", "DNA", "Mitochondria"],
     correct: 1
   },
   {
-    question: "Which of these is NOT a reason for migration?",
-    options: ["Better jobs", "Family reunion", "Political conflict", "Hair color"],
-    correct: 3
-  },
-  {
-    question: "Which region has most refugee settlements?",
-    options: ["Middle East", "Western Europe", "South America", "Antarctica"],
+    question: "Which taxonomic level comes after class?",
+    options: ["Order", "Genus", "Species", "Phylum"],
     correct: 0
   },
   {
-    question: "Which housing style is typical in rural India?",
-    options: ["Skyscrapers", "Mud houses", "Floating homes", "Igloos"],
+    question: "Who coined the term ‘taxonomy’?",
+    options: ["Linnaeus", "Aristotle", "Candolle", "Haeckel"],
+    correct: 2
+  },
+  {
+    question: "Which term refers to a group of similar organisms capable of interbreeding?",
+    options: ["Species", "Genus", "Family", "Order"],
+    correct: 0
+  },
+  {
+    question: "ICBN stands for:",
+    options: ["International Code of Botanical Nomenclature", "Indian Council of Botanical Names", "Institute for Cataloging Botanical Names", "International Convention for Botanical Naming"],
+    correct: 0
+  },
+  {
+    question: "The first word in binomial nomenclature indicates:",
+    options: ["Order", "Family", "Genus", "Species"],
+    correct: 2
+  },
+  {
+    question: "The second word in binomial nomenclature indicates:",
+    options: ["Class", "Species", "Phylum", "Genus"],
     correct: 1
   },
   {
-    question: "What drives modern cultural diffusion?",
-    options: ["Trade routes", "Internet", "Agriculture", "Isolation"],
+    question: "What defines a genus?",
+    options: ["Group of families", "Group of species", "Group of orders", "Group of phyla"],
     correct: 1
   },
   {
-    question: "Which population pyramid indicates growth?",
-    options: ["Inverted", "Oval", "Stationary", "Expansive"],
+    question: "Taxonomy helps in:",
+    options: ["Disease prevention", "Classification", "Energy conservation", "Cooking"],
+    correct: 1
+  },
+  {
+    question: "What does ‘flora’ refer to?",
+    options: ["Plant diseases", "Plant life", "Fungus classification", "Animal behavior"],
+    correct: 1
+  },
+  {
+    question: "Which kingdom includes yeast?",
+    options: ["Plantae", "Fungi", "Monera", "Protista"],
+    correct: 1
+  },
+  {
+    question: "Which of the following organisms is autotrophic?",
+    options: ["Fungi", "Algae", "Bacteria", "Protozoa"],
+    correct: 1
+  },
+  {
+    question: "Which taxonomic category includes similar genera?",
+    options: ["Order", "Family", "Class", "Species"],
+    correct: 1
+  },
+  {
+    question: "Taxonomy is essential for:",
+    options: ["Science fiction", "Understanding biodiversity", "Telecommunication", "Architecture"],
+    correct: 1
+  },
+  {
+    question: "Which is NOT a characteristic of life?",
+    options: ["Respiration", "Growth", "Reproduction", "Decorrelation"],
     correct: 3
   },
   {
-    question: "Which country has floating urban farms?",
-    options: ["India", "USA", "Russia", "Netherlands"],
+    question: "Which one is a unicellular eukaryote?",
+    options: ["E. coli", "Amoeba", "Mushroom", "Yeast"],
+    correct: 1
+  },
+  {
+    question: "Species name of man is:",
+    options: ["Homo sapiens", "Homo erectus", "Homo habilis", "Homo neanderthalensis"],
+    correct: 0
+  },
+  {
+    question: "In binomial nomenclature, names are written in:",
+    options: ["Bold", "Capital letters", "Italics", "Underlined"],
+    correct: 2
+  },
+  {
+    question: "Living organisms respond to stimuli due to:",
+    options: ["Intelligence", "Consciousness", "External forces", "Internal forces"],
+    correct: 1
+  },
+  {
+    question: "Which of these is an example of metabolic activity?",
+    options: ["Sleeping", "Thinking", "Digestion", "Singing"],
+    correct: 2
+  },
+  {
+    question: "Which living characteristic is least evident in viruses?",
+    options: ["Growth", "Reproduction", "Metabolism", "Mutation"],
+    correct: 2
+  },
+  {
+    question: "Which kingdom includes blue-green algae?",
+    options: ["Protista", "Plantae", "Monera", "Fungi"],
+    correct: 2
+  },
+  {
+    question: "Which statement is true about nomenclature?",
+    options: ["Same name can be given to multiple organisms", "Binomial names are optional", "Scientific names follow international codes", "Names change based on habitat"],
+    correct: 2
+  },
+  {
+    question: "Which taxonomic category is most specific?",
+    options: ["Family", "Genus", "Order", "Species"],
     correct: 3
   },
   {
-    question: "Which country is an example of planned urban development?",
-    options: ["Brasilia", "Tokyo", "Mumbai", "Cairo"],
+    question: "What is the role of taxonomy in biology?",
+    options: ["Naming organisms", "Studying cells", "Increasing population", "Monitoring climate"],
     correct: 0
   },
   {
-    question: "Which city is famous for underground homes?",
-    options: ["Delhi", "Coober Pedy", "Jakarta", "Reykjavík"],
+    question: "Which one is an example of a scientific name?",
+    options: ["Homo sapien", "Canis lupus", "Felidae", "Animalia"],
     correct: 1
   },
   {
-    question: "What defines sustainable cities?",
-    options: ["Restrict migration", "Rapid growth", "Balance environment & development", "Ban technology"],
-    correct: 2
-  },
-  {
-    question: "What kind of activity is farming?",
-    options: ["Tertiary", "Primary", "Quaternary", "Secondary"],
+    question: "Taxonomic hierarchy includes which of the following?",
+    options: ["Earth, country, state", "Kingdom, phylum, class", "Atom, molecule, compound", "Planet, species, genus"],
     correct: 1
   },
   {
-    question: "What causes slum growth in cities?",
-    options: ["Cultural heritage", "Lack of employment", "Floods", "Rapid migration"],
-    correct: 3
+    question: "Which level comes immediately above species?",
+    options: ["Genus", "Family", "Order", "Class"],
+    correct: 0
   },
-   {
-    question: "Which settlement type is common in tribal areas?",
-    options: ["Linear", "Clustered", "Compact", "Isolated"],
+  {
+    question: "Which taxon represents the largest grouping?",
+    options: ["Species", "Genus", "Order", "Kingdom"],
     correct: 3
   },
   {
-    question: "What kind of farming feeds one's family?",
-    options: ["Commercial farming", "Subsistence farming", "Organic farming", "Cooperative farming"],
-    correct: 1
-  },
-  {
-    question: "Which element attracts coastal settlement?",
-    options: ["Fishing and trade", "Cold temperature", "Dense forest", "TV signal"],
-    correct: 0
-  },
-  {
-    question: "Which country has advanced eco-settlement programs?",
-    options: ["India", "Germany", "Nigeria", "Brazil"],
-    correct: 1
-  },
-  {
-    question: "Which pattern is seen in open plain settlements?",
-    options: ["Linear", "Circular", "Isolated", "Dispersed"],
-    correct: 1
-  },
-  {
-    question: "What causes uneven population distribution?",
-    options: ["Hair color", "Spatial imbalance", "Equal opportunities", "Flat terrain"],
-    correct: 1
-  },
-  {
-    question: "Which human activity leads to deforestation?",
-    options: ["Urban gardening", "Mining", "Eco-tourism", "Sustainable farming"],
-    correct: 1
-  },
-  {
-    question: "Which region faces serious overpopulation issues?",
-    options: ["Scandinavia", "Sub-Saharan Africa", "Australia", "Greenland"],
-    correct: 1
-  },
-  {
-    question: "What defines a cultural region?",
-    options: ["Political leaders", "Shared customs", "Building designs", "Technology exports"],
-    correct: 1
-  },
-  {
-    question: "Which of these limits settlement in deserts?",
-    options: ["River access", "Rainfall", "Sandstorms", "Permafrost"],
+    question: "‘Animalia’ refers to which classification level?",
+    options: ["Phylum", "Order", "Kingdom", "Class"],
     correct: 2
   },
   {
-    question: "Which factor does NOT attract settlement?",
-    options: ["Water", "Fertile soil", "Internet speed", "Security"],
+    question: "Which of the following is not a taxonomic aid?",
+    options: ["Keys", "Manuals", "DNA test", "Flora"],
     correct: 2
   },
   {
-    question: "What is the main function of green belts?",
-    options: ["Control urban sprawl", "Preserve wildlife", "Limit population growth", "Improve air quality"],
+    question: "What does 'keys' refer to in taxonomy?",
+    options: ["Organism locator", "Coding standard", "Identification tool", "Scientific algorithm"],
+    correct: 2
+  },
+  {
+    question: "Which taxonomic tool provides information about habitat and distribution?",
+    options: ["Monograph", "Flora", "Manual", "Key"],
+    correct: 1
+  },
+  {
+    question: "What helps in identification of organisms?",
+    options: ["Climate data", "Taxonomic keys", "Soil sample", "Genetic algorithm"],
+    correct: 1
+  },
+  {
+    question: "Which living trait is shown by plants?",
+    options: ["Locomotion", "Metabolism", "Intelligence", "Speech"],
+    correct: 1
+  },
+  {
+    question: "Which taxonomic category includes similar families?",
+    options: ["Phylum", "Order", "Class", "Genus"],
+    correct: 1
+  },
+  {
+    question: "Which domain includes multicellular organisms?",
+    options: ["Bacteria", "Archaea", "Eukarya", "Monera"],
+    correct: 2
+  },
+  {
+    question: "What is true about scientific names?",
+    options: ["Always capitalized", "Written in Hindi", "Italicized or underlined", "Never used in publications"],
+    correct: 2
+  },
+  {
+    question: "Which characteristic is unique to living organisms?",
+    options: ["Color", "Shape", "Consciousness", "Density"],
+    correct: 2
+  },
+  {
+    question: "Which taxonomic category is broader than species?",
+    options: ["Genus", "Class", "Order", "Kingdom"],
     correct: 0
   },
   {
-    question: "Which transportation is common in rural areas?",
-    options: ["Metro", "Airplane", "Elevator", "Bullock cart"],
+    question: "Which is the lowest category in classification?",
+    options: ["Genus", "Species", "Family", "Order"],
+    correct: 1
+  },
+  {
+    question: "Living organisms grow by:",
+    options: ["Decreasing size", "Increasing matter", "Cell division", "DNA loss"],
+    correct: 2
+  },
+  {
+    question: "Which term applies to a group of related species?",
+    options: ["Family", "Genus", "Order", "Kingdom"],
+    correct: 1
+  },
+  {
+    question: "Which organelle is most related to metabolism?",
+    options: ["Nucleus", "Mitochondria", "Ribosome", "Centrosome"],
+    correct: 1
+  },
+  {
+    question: "Which category includes only unicellular organisms?",
+    options: ["Plantae", "Fungi", "Monera", "Animalia"],
+    correct: 2
+  },
+  {
+    question: "‘Species’ represents:",
+    options: ["A group that cannot interbreed", "Genetic diversity", "Similar individuals capable of breeding", "A classification error"],
+    correct: 2
+  },
+  {
+    question: "Which scientist introduced the five kingdom system?",
+    options: ["Linnaeus", "Whittaker", "Darwin", "Haeckel"],
+    correct: 1
+  },
+  {
+    question: "Which is NOT an example of Plantae?",
+    options: ["Algae", "Moss", "Ferns", "Mushrooms"],
     correct: 3
   },
   {
-    question: "Why is topography important for settlements?",
-    options: ["Determines height", "Shows culture", "Impacts land use", "Changes weather"],
-    correct: 2
-  },
-  {
-    question: "Which settlement type lacks basic services?",
-    options: ["City", "Hamlet", "Slum", "Suburb"],
-    correct: 2
-  },
-  {
-    question: "Which country faces challenges with overcrowded housing?",
-    options: ["Scandinavia", "South Asia", "New Zealand", "Greenland"],
+    question: "Taxonomic hierarchy is arranged in:",
+    options: ["Alphabetical order", "Descending biological complexity", "Random groups", "Color codes"],
     correct: 1
   },
   {
-    question: "What’s the purpose of urban land zoning?",
-    options: ["Color code buildings", "Allocate functions", "Restrict trees", "Measure rainfall"],
-    correct: 1
+    question: "Which one is a preserved plant specimen?",
+    options: ["Herbarium", "Morgue", "Botanic tube", "Flora vault"],
+    correct: 0
   },
   {
-    question: "Which activity belongs to tertiary sector?",
-    options: ["Coal mining", "Teaching", "Carpentry", "Plumbing"],
-    correct: 1
-  },
-  {
-    question: "Where are floating farms gaining popularity?",
-    options: ["USA", "Thailand", "Netherlands", "Brazil"],
-    correct: 2
-  },
-  {
-    question: "Which factor leads to housing scarcity?",
-    options: ["Wildlife", "Tourism", "Migration", "High rainfall"],
-    correct: 2
-  },
-  {
-    question: "Which region experiences nomadic herding?",
-    options: ["Forests", "Urban centers", "River valleys", "Deserts"],
+    question: "The second part of a scientific name is:",
+    options: ["Genus", "Family", "Order", "Species"],
     correct: 3
   },
   {
-    question: "Which settlement type provides best public services?",
-    options: ["Nomadic", "Urban", "Tribal", "Isolated"],
-    correct: 1
+    question: "Growth is measurable by:",
+    options: ["Emotion", "Color", "Mass and number", "Scent"],
+    correct: 2
   },
   {
-    question: "Which area often has circular settlements?",
-    options: ["Open plains", "River banks", "Mountains", "Forest edges"],
+    question: "What is true for non-living things?",
+    options: ["They reproduce", "They have metabolism", "They grow by accumulation", "They feel emotions"],
+    correct: 2
+  },
+  {
+    question: "Which category includes man?",
+    options: ["Order Primates", "Genus Panthera", "Kingdom Fungi", "Family Canidae"],
     correct: 0
   },
   {
-    question: "Which activity falls under secondary sector?",
-    options: ["Teaching", "Fishing", "Manufacturing", "Retail services"],
-    correct: 2
-  },
-  {
-    question: "What is the impact of overpopulation?",
-    options: ["Economic boost", "Resource strain", "Tourism growth", "Increased forests"],
-    correct: 1
-  },
-  {
-    question: "Which city is known for sustainable housing below ground?",
-    options: ["Delhi", "Jakarta", "Coober Pedy", "Oslo"],
-    correct: 2
-  },
-  {
-    question: "Which factor encourages migration?",
-    options: ["Poor sanitation", "Conflict", "Language barrier", "Lack of tourism"],
-    correct: 1
-  },
-  {
-    question: "Which activity is quaternary?",
-    options: ["Banking", "Software research", "Farming", "Mining"],
-    correct: 1
-  },
-  {
-    question: "What do population pyramids show?",
-    options: ["Forest coverage", "Economic trends", "Age distribution", "Soil fertility"],
-    correct: 2
-  },
-  {
-    question: "Which activity is most data-driven?",
-    options: ["Demography", "Architecture", "Geology", "Agronomy"],
+    question: "Which organism is used in taxonomy as model?",
+    options: ["Drosophila", "Yeast", "Cactus", "Penguin"],
     correct: 0
   },
   {
-    question: "What contributes to population growth?",
-    options: ["High death rates", "High birth rates", "Low fertility", "Climate change"],
+    question: "Which term best defines biodiversity?",
+    options: ["Population count", "Variety of life forms", "Animal migration", "Plant nutrition"],
     correct: 1
   },
   {
-    question: "Why do people migrate for education?",
-    options: ["Safety", "Climate", "Schooling", "Religion"],
-    correct: 2
+    question: "Who proposed the term ‘species’?",
+    options: ["Aristotle", "Linnaeus", "Darwin", "Mendel"],
+    correct: 1
   },
   {
-    question: "Which landform restricts dense settlement?",
-    options: ["Plateau", "Valley", "Plain", "Mountain"],
+    question: "Which is true about classification?",
+    options: ["It’s random", "It helps in naming", "It reduces confusion", "Both B and C"],
     correct: 3
   },
   {
-    question: "Which city was built from scratch?",
-    options: ["London", "Brasilia", "Cairo", "New York"],
-    correct: 1
-  },
-  {
-    question: "What does the HDI measure?",
-    options: ["Age", "Income", "Ethnicity", "Region"],
-    correct: 1
-  },
-  {
-    question: "What drives eco-settlements?",
-    options: ["Rapid industry", "Sustainability", "Politics", "Tourism"],
-    correct: 1
-  },
-  {
-    question: "Which factor impacts rural economy?",
-    options: ["Export tariffs", "Retail hubs", "Agriculture", "Cloud services"],
+    question: "Flora represents:",
+    options: ["Animal species", "Human cells", "Plant species", "Microbial species"],
     correct: 2
   },
   {
-    question: "What does spatial imbalance imply?",
-    options: ["Equal population spread", "Overpopulation only", "Uneven population spread", "Migration trend"],
-    correct: 2
-  },
-  {
-    question: "What defines urban sprawl?",
-    options: ["City center growth", "Vertical expansion", "Horizontal spread", "Wildlife migration"],
-    correct: 2
-  },
-  {
-    question: "Which country uses solar-powered homes widely?",
-    options: ["India", "Germany", "Australia", "Japan"],
+    question: "All organisms reproduce for:",
+    options: ["Fun", "Survival", "Population control", "Food production"],
     correct: 1
   },
   {
-    question: "Which economic sector is growing in cities?",
-    options: ["Fishing", "Retail services", "Forestry", "Farming"],
-    correct: 1
-  },
-  {
-    question: "What is a refugee settlement?",
-    options: ["Tourist center", "Planned city", "Temporary shelter", "Historic village"],
-    correct: 2
-  },
-  {
-    question: "Why do some cities plan green zones?",
-    options: ["Celebrate culture", "Improve air quality", "Store fuel", "Host concerts"],
-    correct: 1
-  },
-  {
-    question: "Which of these is a cultural migration barrier?",
-    options: ["Temperature", "Language", "Altitude", "Rainfall"],
-    correct: 1
-  },
-  {
-    question: "Which pattern offers least contact among homes?",
-    options: ["Dispersed", "Linear", "Compact", "Clustered"],
+    question: "Scientific names help in:",
+    options: ["Global communication", "Hiding species identity", "Local usage", "Poetic writing"],
     correct: 0
   },
   {
-    question: "Where are clustered settlements common?",
-    options: ["Tribal regions", "River delta", "Polar zones", "Isolated islands"],
-    correct: 0
-  },
-  {
-    question: "What defines subsistence farming?",
-    options: ["Profit motive", "Market access", "Feeding own family", "Export goods"],
+    question: "Which aid is used to identify a new plant?",
+    options: ["Monograph", "Manual", "Key", "Botanic chart"],
     correct: 2
   },
   {
-    question: "Which mode of transport suits mountainous regions?",
-    options: ["Airplane", "Train", "Cable car", "Metro"],
-    correct: 2
+    question: "What does 'ICBN' relate to?",
+    options: ["Zoology", "Botany", "Genetics", "Cell Biology"],
+    correct: 1
   },
   {
-    question: "Which city uses underground metro widely?",
-    options: ["Tokyo", "Bangkok", "Lagos", "Rome"],
-    correct: 0
+    question: "Who established binomial system?",
+    options: ["Whittaker", "Linnaeus", "Mendel", "Darwin"],
+    correct: 1
+  },
+  {
+    question: "Living organisms show:",
+    options: ["Rusting", "Metabolism", "Corrosion", "Evaporation"],
+    correct: 1
   },
 
  
 ];
+
+
 
 
 
